@@ -4,7 +4,6 @@ const cheerio = require('cheerio')
 
 module.exports = class Instagram {
 
-	// TODO ajustar code e migrar para async/await
 	constructor(sessionid) {
 
 		this.headers = {
